@@ -39,10 +39,11 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
 
 -- 1. أيقونة التصغير
 local MinimizeIcon = Instance.new("ImageButton")
+MinimizeIcon.Name = "MinimizeIcon"
 MinimizeIcon.Size = UDim2.new(0, 60, 0, 60)
 MinimizeIcon.Position = UDim2.new(0.5, -30, 0, 20)
 MinimizeIcon.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
-MinimizeIcon.Image = "rbxassetid://7072559591" -- تم التعديل هنا ليظهر الأيقونة
+MinimizeIcon.Image = "rbxassetid://7072559591"
 MinimizeIcon.Visible = false
 MinimizeIcon.ZIndex = 100
 MinimizeIcon.Parent = ScreenGui
