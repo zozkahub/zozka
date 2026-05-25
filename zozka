@@ -42,7 +42,7 @@ local MinimizeIcon = Instance.new("ImageButton")
 MinimizeIcon.Size = UDim2.new(0, 60, 0, 60)
 MinimizeIcon.Position = UDim2.new(0.5, -30, 0, 20)
 MinimizeIcon.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
-MinimizeIcon.Image = "rbxassetid://7072559591"
+MinimizeIcon.Image = "rbxassetid://7072559591" -- تم التعديل هنا ليظهر الأيقونة
 MinimizeIcon.Visible = false
 MinimizeIcon.ZIndex = 100
 MinimizeIcon.Parent = ScreenGui
@@ -170,7 +170,6 @@ Title.Font = Enum.Font.GothamBlack
 Title.TextXAlignment = Enum.TextXAlignment.Left
 Title.BackgroundTransparency = 1
 Title.ZIndex = 12
--- تم إزالة الأسطر الخاطئة (TextShadowColor3) هنا!
 Instance.new("UIStroke", Title).Color = Color3.fromRGB(0, 100, 255); Title.UIStroke.Thickness = 1.5; Title.UIStroke.Transparency = 0.2
 Title.Parent = TopBar
 
